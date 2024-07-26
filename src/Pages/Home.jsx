@@ -2,6 +2,7 @@ import React from "react";
 import Experience from "./Experience";
 import temp from "../assets/images/Mypfp.jpeg";
 import Projects from "../Pages/Projects";
+import Contact from "../Pages/Contact"
 function Home() {
   return (
     <>
@@ -25,6 +26,7 @@ function Home() {
       </div>
       <Experience />
       <Projects />
+      <Contact/>
     </>
   );
 }

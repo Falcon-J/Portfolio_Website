@@ -34,12 +34,23 @@ function Experience() {
               <h2 className="text-2xl font-bold">Person of contact</h2>
               <h4 className="text-lg font-semibold">Jun 2023 - Mar 2024</h4>
               <h3 className="text-lg font-semibold">
-                ICETITE'24 Vellore, Tamil Nadu, India
+                ICETITE'24  VIT Vellore, Tamil Nadu, India
               </h3>
               <p className="text-slate-600 mt-2">
                 Worked to organize Technext, a technology exhibition, for the
                 International Conference on Emerging Trends in Information
                 Technology and Engineering 2024
+              </p>
+            </div>
+            <div className="Timeline-item bg-slate-100 text-slate-600 p-4 rounded">
+              <h2 className="text-2xl font-bold">Organizing Commitee</h2>
+              <h4 className="text-lg font-semibold">Feb 2024</h4>
+              <h3 className="text-lg font-semibold">
+                AGAAZ 7.0, VIT Vellore, Tamil Nadu, India
+              </h3>
+              <p className="text-slate-600 mt-2">
+              Riviera's biggest comedy show. Worked as a part of the organizing team.
+              
               </p>
             </div>
           </div>
