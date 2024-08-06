@@ -1,12 +1,14 @@
 import React from "react";
-import Experience from "./Experience";
 import temp from "../assets/images/Mypfp.jpeg";
 import Projects from "../Pages/Projects";
-import Contact from "../Pages/Contact"
+import Contact from "../Pages/Contact";
+import Certificates from "./Certificates";
+import ExperienceCard from "./Expcard";
+
 function Home() {
   return (
     <>
-      <div className="home-container h-screen m-10">
+      <div className="home-container h-screen m-10 ">
         <div className="home h-screen bg-slate-100 grid gap-4 grid-cols-2 p-4 ">
           <div className="Leftgrid flex justify-center items-center">
             <img
@@ -24,9 +26,10 @@ function Home() {
           </div>
         </div>
       </div>
-      <Experience />
-      <Projects />
-      <Contact/>
+      {/* <Projects /> */}
+      <ExperienceCard />
+      {/* <Certificates /> */}
+      <Contact />
     </>
   );
 }
