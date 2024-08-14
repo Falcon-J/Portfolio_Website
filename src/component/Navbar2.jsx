@@ -1,5 +1,7 @@
 import sun from "../assets/icons/sun.svg";
-import Resbtn from "./Resume";
+// import Resbtn from "./Resume";
+import DResbtn from "../component/Resbtn"
+
 
 export default function Navbar2() {
   return (
@@ -8,7 +10,7 @@ export default function Navbar2() {
         <h1 className="text-2xl font-bold p-5">Omkar Jawalikar</h1>
         <div className="topright flex  ">
           <div className="p-5">
-            <Resbtn />
+            <DResbtn />
           </div>
           <button className="p-5">
             <img className="w-10 h-10" src={sun} alt="Theme toggle" />
